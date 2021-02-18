@@ -1,6 +1,5 @@
 # NameAuditor GO SDK
-This a Golang SDK for [NameAuditor API](https://docs.nameauditor.com)
-NameAuditor is fast & powerful API that returns a well-parsed & accurate WHOIS information of a domain name in JSON formats.
+A Golang SDK for [NameAuditor API](https://docs.nameauditor.com), A fast & powerful API that returns a well-parsed & accurate WHOIS information of a domain name in JSON formats.
 
 ### Install
 ```
