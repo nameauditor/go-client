@@ -89,7 +89,10 @@ func (c *Client) GetTLDs() (*TLDsList, error) {
 
 // GetWhois
 func (c *Client) GetWhois(domain string) (*Domain, error) {
-	req, _ := http.NewRequest("GET", baseURL+"/whois/"+domain, nil)
+	req, err := http.NewRequest("GET", baseURL+"/whois/"+domain, nil)
+	if err != nil {
+		return nil, err
+	}
 
 	req.Header.Add("x-rapidapi-key", c.key)
 	req.Header.Add("x-rapidapi-host", "nameauditor-whois-check.p.rapidapi.com")
