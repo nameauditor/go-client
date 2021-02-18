@@ -49,8 +49,10 @@ func main() {
 	}
 	fmt.Println(record)
 }
+```
 
-// Output
+### Output
+```json
 {
         "UUID": "c0mesvium8seq4vkga90",
         "ID": "2529097792_DOMAIN_COM-VRSN",
