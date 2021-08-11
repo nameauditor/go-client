@@ -1,4 +1,4 @@
-module github.com/softpi/nameauditor-go-sdk
+module github.com/nameauditor/nameauditor-go-sdk
 
 go 1.15
 
