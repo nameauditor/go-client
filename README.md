@@ -3,7 +3,7 @@ A Golang SDK for [NameAuditor API](https://docs.nameauditor.com), A fast & power
 
 ### Install
 ```
-go get github.com/softpi/nameauditor-go-sdk
+go get github.com/nameauditor/go-client
 ```
 
 ### API key
@@ -20,7 +20,7 @@ package main
 import (
 	"fmt"
 
-	nauditor_sdk "github.com/softpi/nameauditor-go-sdk"
+	nauditor_sdk "github.com/nameauditor/go-client"
 )
 
 func main() {
